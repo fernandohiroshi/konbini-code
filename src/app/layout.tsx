@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 import { Raleway } from 'next/font/google'
 
+import { ThemeProvider } from '@/components/themes/ThemeProvider'
+
 const raleway = Raleway({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -16,7 +18,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${raleway.className} antialiased`}>{children}</body>
+      <body className={`${raleway.className} antialiased`}>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="dark"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   )
 }
