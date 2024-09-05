@@ -11,6 +11,7 @@ const raleway = Raleway({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Konbini Code',
   description: 'Website Development Service',
+  icons: './favicon.ico',
 }
 
 export default async function LocaleLayout({
