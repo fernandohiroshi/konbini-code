@@ -13,8 +13,8 @@ export function Globe({ className }: { className?: string }) {
 
     const globe = createGlobe(canvasRef.current, {
       devicePixelRatio: 2,
-      width: 600 * 2,
-      height: 600 * 2,
+      width: 560 * 2,
+      height: 560 * 2,
       phi: 0,
       theta: 0,
       dark: 1,
