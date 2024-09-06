@@ -15,5 +15,39 @@
     "en": "Inglês",
     "ja": "Japonês",
     "pt": "Português"
+  },
+
+  "Services": {
+    "section-title": "Confira as soluções digitais que oferecemos.",
+
+    "Service1": {
+      "title": "Landing Page Simples",
+      "description": "Criação rápida de landing pages claras e funcionais para atrair e converter visitantes."
+    },
+
+    "Service2": {
+      "title": "Portfólio Personalizado",
+      "description": "Criação de portfólios com layout limpo e foco em apresentar seus projetos de maneira profissional."
+    },
+
+    "Service3": {
+      "title": "Blog Essencial",
+      "description": "Desenvolvimento de blogs fáceis de gerenciar, com estrutura simples e conteúdo organizado."
+    },
+
+    "Service4": {
+      "title": "Site com CMS Intuitivo",
+      "description": "Sites com CMS que permitem fácil alteração de títulos, descrições e imagens, sem necessidade de conhecimentos técnicos."
+    },
+
+    "Service5": {
+      "title": "Sites para Eventos",
+      "description": "Desenvolvimento de sites práticos para eventos, com informações claras e fácil acesso a detalhes importantes."
+    },
+
+    "Service6": {
+      "title": "Site Corporativo",
+      "description": "Desenvolvimento de sites corporativos com design profissional e funcionalidades voltadas para negócios e empresas."
+    }
   }
 }

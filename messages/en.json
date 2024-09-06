@@ -15,5 +15,34 @@
     "en": "English",
     "ja": "Japanese",
     "pt": "Portuguese"
+  },
+
+  "Services": {
+    "ssection-title": "Check out the digital solutions we offer.",
+
+    "Service1": {
+      "title": "Simple Landing Page",
+      "description": "Quick creation of clear and functional landing pages to attract and convert visitors."
+    },
+    "Service2": {
+      "title": "Custom Portfolio",
+      "description": "Creation of portfolios with a clean layout focused on showcasing your projects professionally."
+    },
+    "Service3": {
+      "title": "Essential Blog",
+      "description": "Development of easy-to-manage blogs with a simple structure and organized content."
+    },
+    "Service4": {
+      "title": "Website with Intuitive CMS",
+      "description": "Websites with a CMS that allows easy editing of titles, descriptions, and images without technical knowledge."
+    },
+    "Service5": {
+      "title": "Event Websites",
+      "description": "Development of practical websites for events, with clear information and easy access to important details."
+    },
+    "Service6": {
+      "title": "Corporate Website",
+      "description": "Development of corporate websites with professional design and business-focused functionalities."
+    }
   }
 }
