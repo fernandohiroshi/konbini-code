@@ -1,5 +1,19 @@
 {
-  "Home": {
-    "title": "こんにちは世界"
+  "Project": {
+    "name": "コンビニコード"
+  },
+
+  "Nav": {
+    "about": "について",
+    "services": "サービス",
+    "templates": "テンプレート",
+    "questions": "よくある質問",
+    "contact": "お問い合わせ"
+  },
+
+  "Languages": {
+    "en": "英語",
+    "ja": "日本語",
+    "pt": "ポルトガル語"
   }
 }

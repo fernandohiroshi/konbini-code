@@ -1,5 +1,19 @@
 {
-  "Home": {
-    "title": "Olá Mundo"
+  "Project": {
+    "name": "Konbini Code"
+  },
+
+  "Nav": {
+    "about": "Sobre",
+    "services": "Serviços",
+    "templates": "Modelos",
+    "questions": "Perguntas",
+    "contact": "Contato"
+  },
+
+  "Languages": {
+    "en": "Inglês",
+    "ja": "Japonês",
+    "pt": "Português"
   }
 }

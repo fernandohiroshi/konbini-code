@@ -1,5 +1,19 @@
 {
-  "Home": {
-    "title": "Hello World"
+  "Project": {
+    "name": "Konbini Code"
+  },
+
+  "Nav": {
+    "about": "About",
+    "services": "Services",
+    "templates": "Templates",
+    "questions": "Questions",
+    "contact": "Contact"
+  },
+
+  "Languages": {
+    "en": "English",
+    "ja": "Japanese",
+    "pt": "Portuguese"
   }
 }
