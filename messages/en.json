@@ -17,6 +17,26 @@
     "pt": "Portuguese"
   },
 
+  "Features": {
+    "section-title": "Transform Your Digital Presence with Uniquely Designed Websites",
+    "Feature1": {
+      "title": "What We Do?",
+      "description": "We create unique websites that combine simplicity, style, and modern front-end technologies. See how our innovative approach can transform your online presence."
+    },
+    "Feature2": {
+      "title": "Ideas and Design Consulting",
+      "description": "Consulting to turn your ideas into websites. Bring your concepts to life with our creative support."
+    },
+    "Feature3": {
+      "title": "Simplicity and Control with Integrated CMS",
+      "description": "We create websites with Cosmic JS CMS for easy editing of titles, descriptions, and images. Enjoy full control with an intuitive interface."
+    },
+    "Feature4": {
+      "title": "Flexible Solutions",
+      "description": "We offer multilingual websites, from budget-friendly options to complex projects. Our focus is on delivering fast and simple sites with quality."
+    }
+  },
+
   "Services": {
     "ssection-title": "Check out the digital solutions we offer.",
 

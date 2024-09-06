@@ -49,5 +49,25 @@
       "title": "Site Corporativo",
       "description": "Desenvolvimento de sites corporativos com design profissional e funcionalidades voltadas para negócios e empresas."
     }
+  },
+
+  "Features": {
+    "section-title": "Transforme Sua Presença Digital com Websites de Design Único",
+    "Feature1": {
+      "title": "O Que Fazemos?",
+      "description": "Criamos sites únicos que combinam simplicidade, estilo e as mais modernas tecnologias front-end. Veja como nossa abordagem inovadora pode transformar sua presença online."
+    },
+    "Feature2": {
+      "title": "Consultoria de Ideias e Design",
+      "description": "Consultoria para transformar suas ideias em websites. Dê vida aos seus conceitos com nosso suporte criativo."
+    },
+    "Feature3": {
+      "title": "Simplicidade e Controle com CMS Integrado",
+      "description": "Criamos sites com o CMS Cosmic JS para facilitar a edição de títulos, descrições e imagens. Aproveite o controle total com uma interface intuitiva."
+    },
+    "Feature4": {
+      "title": "Soluções Flexíveis",
+      "description": "Oferecemos sites multilíngues, desde opções econômicas até projetos complexos. Nosso foco está em entregar sites rápidos e simples, com qualidade."
+    }
   }
 }

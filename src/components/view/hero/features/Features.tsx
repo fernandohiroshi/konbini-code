@@ -1,3 +1,4 @@
+import { useTranslations } from 'next-intl'
 import React from 'react'
 
 import { FeatureCard } from './components/FeatureCard'
@@ -9,34 +10,31 @@ import { SkeletonThree } from './components/skeletons/SkeletonThree'
 import { SkeletonTwo } from './components/skeletons/SkeletonTwo'
 
 export function Features() {
+  const t = useTranslations('Features')
+
   const features = [
     {
-      title: 'What We Do?',
-      description:
-        'We create unique websites that combine simplicity, style, and modern front-end technologies. See how our innovative approach can transform your online presence.',
+      title: t('Feature1.title'),
+      description: t('Feature1.description'),
       skeleton: <SkeletonOne />,
       className:
         'col-span-1 lg:col-span-4 border-b lg:border-r dark:border-neutral-800',
     },
     {
-      title: 'Ideas and Design Consulting',
-      description:
-        'Consulting to turn your ideas into websites. Bring your concepts to life with our creative support.',
+      title: t('Feature2.title'),
+      description: t('Feature2.description'),
       skeleton: <SkeletonTwo />,
       className: 'border-b col-span-1 lg:col-span-2 dark:border-neutral-800',
     },
     {
-      title: 'Simplicity and Control with Integrated CMS',
-      description:
-        'We create websites with Cosmic JS CMS for easy editing of titles, descriptions, and images. Enjoy full control with an intuitive interface.',
+      title: t('Feature3.title'),
+      description: t('Feature3.description'),
       skeleton: <SkeletonThree />,
-      className:
-        'col-span-1 lg:col-span-3 lg:border-r  dark:border-neutral-800',
+      className: 'col-span-1 lg:col-span-3 lg:border-r dark:border-neutral-800',
     },
     {
-      title: 'Flexible Solutions',
-      description:
-        'We offer multilingual websites, from budget-friendly options to complex projects. Our focus is on delivering fast and simple sites with quality.',
+      title: t('Feature4.title'),
+      description: t('Feature4.description'),
       skeleton: <SkeletonFour />,
       className: 'col-span-1 lg:col-span-3 border-b lg:border-none',
     },
@@ -44,8 +42,8 @@ export function Features() {
   return (
     <div className="relative z-20 mx-auto max-w-7xl py-10 lg:py-40">
       <div className="px-8">
-        <h1 className="mx-auto max-w-5xl animate-pulse text-center text-3xl font-medium tracking-tight text-purple-500 lg:text-7xl lg:leading-tight">
-          Transform Your Digital Presence with Unique Design Websites
+        <h1 className="mx-auto max-w-4xl animate-pulse text-center text-3xl font-medium tracking-tight text-purple-500 lg:text-5xl lg:leading-tight">
+          {t('section-title')}
         </h1>
       </div>
 
