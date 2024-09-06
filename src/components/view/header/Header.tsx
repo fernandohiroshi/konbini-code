@@ -8,7 +8,7 @@ import { Nav } from './components/nav/Nav'
 export function Header() {
   const t = useTranslations('Project')
   return (
-    <header className="sticky top-0 w-full bg-background/60 backdrop-blur-2xl">
+    <header className="sticky top-0 z-50 w-full bg-white/60 backdrop-blur-2xl dark:bg-black/60">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-8 py-4">
         <Link href="/" className="flex items-center gap-2">
           <Image
