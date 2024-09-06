@@ -3,7 +3,7 @@ import Link from 'next/link'
 export function SkeletonThree() {
   return (
     <Link
-      href="https://www.youtube.com/watch?v=RPa3_AD1_Vs"
+      href="https://www.cosmicjs.com"
       target="_blank"
       className="group/image relative flex h-full gap-10"
     >
@@ -11,7 +11,7 @@ export function SkeletonThree() {
         <div className="relative flex h-auto w-full flex-1 flex-col space-y-2">
           <video
             src="https://cdn.cosmicjs.com/7a1734b0-da64-11ee-b6bc-0f88b0862d1c-home-video.mp4"
-            className="aspect-square h-full w-full object-cover transition-all duration-200 group-hover:opacity-80"
+            className="aspect-square h-full w-full object-cover p-2"
             autoPlay
             muted
             loop
