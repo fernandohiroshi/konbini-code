@@ -38,7 +38,7 @@
   },
 
   "Services": {
-    "ssection-title": "Check out the digital solutions we offer.",
+    "section-title": "Check out the digital solutions we offer.",
 
     "Service1": {
       "title": "Simple Landing Page",
@@ -64,5 +64,18 @@
       "title": "Corporate Website",
       "description": "Development of corporate websites with professional design and business-focused functionalities."
     }
+  },
+
+  "Templates": {
+    "section-title": "What is your style?",
+    "description": "We can help you find the model for your business!",
+    "0": "Minimalist",
+    "1": "Modern",
+    "2": "Organic",
+    "3": "Bento Box",
+    "4": "Anime & Game",
+    "5": "Illustration",
+    "6": "clean",
+    "7": "Underground"
   }
 }

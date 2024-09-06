@@ -17,6 +17,26 @@
     "pt": "Português"
   },
 
+  "Features": {
+    "section-title": "Transforme Sua Presença Digital com Websites de Design Único",
+    "Feature1": {
+      "title": "O Que Fazemos?",
+      "description": "Criamos sites únicos que combinam simplicidade, estilo e as mais modernas tecnologias front-end. Veja como nossa abordagem inovadora pode transformar sua presença online."
+    },
+    "Feature2": {
+      "title": "Consultoria de Ideias e Design",
+      "description": "Consultoria para transformar suas ideias em websites. Dê vida aos seus conceitos com nosso suporte criativo."
+    },
+    "Feature3": {
+      "title": "Simplicidade e Controle com CMS Integrado",
+      "description": "Criamos sites com o CMS Cosmic JS para facilitar a edição de títulos, descrições e imagens. Aproveite o controle total com uma interface intuitiva."
+    },
+    "Feature4": {
+      "title": "Soluções Flexíveis",
+      "description": "Oferecemos sites multilíngues, desde opções econômicas até projetos complexos. Nosso foco está em entregar sites rápidos e simples, com qualidade."
+    }
+  },
+
   "Services": {
     "section-title": "Confira as soluções digitais que oferecemos.",
 
@@ -51,23 +71,16 @@
     }
   },
 
-  "Features": {
-    "section-title": "Transforme Sua Presença Digital com Websites de Design Único",
-    "Feature1": {
-      "title": "O Que Fazemos?",
-      "description": "Criamos sites únicos que combinam simplicidade, estilo e as mais modernas tecnologias front-end. Veja como nossa abordagem inovadora pode transformar sua presença online."
-    },
-    "Feature2": {
-      "title": "Consultoria de Ideias e Design",
-      "description": "Consultoria para transformar suas ideias em websites. Dê vida aos seus conceitos com nosso suporte criativo."
-    },
-    "Feature3": {
-      "title": "Simplicidade e Controle com CMS Integrado",
-      "description": "Criamos sites com o CMS Cosmic JS para facilitar a edição de títulos, descrições e imagens. Aproveite o controle total com uma interface intuitiva."
-    },
-    "Feature4": {
-      "title": "Soluções Flexíveis",
-      "description": "Oferecemos sites multilíngues, desde opções econômicas até projetos complexos. Nosso foco está em entregar sites rápidos e simples, com qualidade."
-    }
+  "Templates": {
+    "section-title": "Qual é o seu estilo?",
+    "description": "Podemos ajudá-lo a encontrar o modelo ideal para o seu negócio!",
+    "0": "Minimalista",
+    "1": "Moderno",
+    "2": "Orgânico",
+    "3": "Bento Box",
+    "4": "Anime & Jogos",
+    "5": "Ilustração",
+    "6": "clean",
+    "7": "Underground"
   }
 }
