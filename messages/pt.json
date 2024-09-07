@@ -19,19 +19,19 @@
 
   "Features": {
     "section-title": "Transforme Sua Presença Digital com Websites de Design Único",
-    "Feature1": {
+    "1": {
       "title": "O Que Fazemos?",
       "description": "Criamos sites únicos que combinam simplicidade, estilo e as mais modernas tecnologias front-end. Veja como nossa abordagem inovadora pode transformar sua presença online."
     },
-    "Feature2": {
+    "2": {
       "title": "Consultoria de Ideias e Design",
       "description": "Consultoria para transformar suas ideias em websites. Dê vida aos seus conceitos com nosso suporte criativo."
     },
-    "Feature3": {
+    "3": {
       "title": "Simplicidade e Controle com CMS Integrado",
       "description": "Criamos sites com o CMS Cosmic JS para facilitar a edição de títulos, descrições e imagens. Aproveite o controle total com uma interface intuitiva."
     },
-    "Feature4": {
+    "4": {
       "title": "Soluções Flexíveis",
       "description": "Oferecemos sites multilíngues, desde opções econômicas até projetos complexos. Nosso foco está em entregar sites rápidos e simples, com qualidade."
     }
@@ -40,32 +40,32 @@
   "Services": {
     "section-title": "Confira as soluções digitais que oferecemos.",
 
-    "Service1": {
+    "1": {
       "title": "Landing Page Simples",
       "description": "Criação rápida de landing pages claras e funcionais para atrair e converter visitantes."
     },
 
-    "Service2": {
+    "2": {
       "title": "Portfólio Personalizado",
       "description": "Criação de portfólios com layout limpo e foco em apresentar seus projetos de maneira profissional."
     },
 
-    "Service3": {
+    "3": {
       "title": "Blog Essencial",
       "description": "Desenvolvimento de blogs fáceis de gerenciar, com estrutura simples e conteúdo organizado."
     },
 
-    "Service4": {
+    "4": {
       "title": "Site com CMS Intuitivo",
       "description": "Sites com CMS que permitem fácil alteração de títulos, descrições e imagens, sem necessidade de conhecimentos técnicos."
     },
 
-    "Service5": {
+    "5": {
       "title": "Sites para Eventos",
       "description": "Desenvolvimento de sites práticos para eventos, com informações claras e fácil acesso a detalhes importantes."
     },
 
-    "Service6": {
+    "6": {
       "title": "Site Corporativo",
       "description": "Desenvolvimento de sites corporativos com design profissional e funcionalidades voltadas para negócios e empresas."
     }
@@ -74,31 +74,31 @@
   "Templates": {
     "section-title": "Qual é o seu estilo?",
     "description": "Podemos ajudá-lo a encontrar o modelo ideal para o seu negócio!",
-    "0": "Minimalista",
-    "1": "Moderno",
-    "2": "Orgânico",
-    "3": "Bento Box",
-    "4": "Anime & Jogos",
-    "5": "Ilustração",
-    "6": "clean",
-    "7": "Underground"
+    "1": "Minimalista",
+    "2": "Moderno",
+    "3": "Orgânico",
+    "4": "Bento Box",
+    "5": "Anime & Jogos",
+    "6": "Ilustração",
+    "7": "clean",
+    "8": "Underground"
   },
 
   "Questions": {
     "section-title": "Principais Perguntas e Preocupações",
-    "Question1": {
+    "1": {
       "question": "Quanto tempo leva para criar um site?",
       "response": "O tempo necessário depende da complexidade, design e tamanho do conteúdo. Para projetos simples, o site pode ser concluído em menos de 2 semanas."
     },
-    "Question2": {
+    "2": {
       "question": "O que é um site CMS?",
       "response": "Um CMS (Sistema de Gerenciamento de Conteúdo) permite que você gerencie facilmente o conteúdo do seu site, como fotos, títulos e descrições, através de um painel intuitivo. Usamos o Cosmic JS, conhecido por sua simplicidade e interface amigável. Para mais detalhes, visite o site cosmicjs.com."
     },
-    "Question3": {
+    "3": {
       "question": "Quanto custa um site?",
       "response": "O custo de um site varia muito dependendo de vários fatores, incluindo o tamanho do site, a complexidade do design e os requisitos de hospedagem. Cada projeto é único e requer uma avaliação baseada nas necessidades e na visão do cliente. Oferecemos soluções econômicas com designs modernos e autênticos que atendem a diferentes orçamentos."
     },
-    "Question4": {
+    "4": {
       "question": "Os sites são adaptados para diferentes dispositivos?",
       "response": "Sim, nossos sites são responsivos e se ajustam a smartphones, tablets, desktops e monitores grandes. Usamos técnicas como layout em grade para garantir uma boa visualização em todos os dispositivos."
     }

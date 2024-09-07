@@ -19,19 +19,19 @@
 
   "Features": {
     "section-title": "Transform Your Digital Presence with Uniquely Designed Websites",
-    "Feature1": {
+    "1": {
       "title": "What We Do?",
       "description": "We create unique websites that combine simplicity, style, and modern front-end technologies. See how our innovative approach can transform your online presence."
     },
-    "Feature2": {
+    "2": {
       "title": "Ideas and Design Consulting",
       "description": "Consulting to turn your ideas into websites. Bring your concepts to life with our creative support."
     },
-    "Feature3": {
+    "3": {
       "title": "Simplicity and Control with Integrated CMS",
       "description": "We create websites with Cosmic JS CMS for easy editing of titles, descriptions, and images. Enjoy full control with an intuitive interface."
     },
-    "Feature4": {
+    "4": {
       "title": "Flexible Solutions",
       "description": "We offer multilingual websites, from budget-friendly options to complex projects. Our focus is on delivering fast and simple sites with quality."
     }
@@ -40,27 +40,27 @@
   "Services": {
     "section-title": "Check out the digital solutions we offer.",
 
-    "Service1": {
+    "1": {
       "title": "Simple Landing Page",
       "description": "Quick creation of clear and functional landing pages to attract and convert visitors."
     },
-    "Service2": {
+    "2": {
       "title": "Custom Portfolio",
       "description": "Creation of portfolios with a clean layout focused on showcasing your projects professionally."
     },
-    "Service3": {
+    "3": {
       "title": "Essential Blog",
       "description": "Development of easy-to-manage blogs with a simple structure and organized content."
     },
-    "Service4": {
+    "4": {
       "title": "Website with Intuitive CMS",
       "description": "Websites with a CMS that allows easy editing of titles, descriptions, and images without technical knowledge."
     },
-    "Service5": {
+    "5": {
       "title": "Event Websites",
       "description": "Development of practical websites for events, with clear information and easy access to important details."
     },
-    "Service6": {
+    "6": {
       "title": "Corporate Website",
       "description": "Development of corporate websites with professional design and business-focused functionalities."
     }
@@ -69,14 +69,14 @@
   "Templates": {
     "section-title": "What is your style?",
     "description": "We can help you find the model for your business!",
-    "0": "Minimalist",
-    "1": "Modern",
-    "2": "Organic",
-    "3": "Bento Box",
-    "4": "Anime & Game",
-    "5": "Illustration",
-    "6": "clean",
-    "7": "Underground"
+    "1": "Minimalist",
+    "2": "Modern",
+    "3": "Organic",
+    "4": "Bento Box",
+    "5": "Anime & Game",
+    "6": "Illustration",
+    "7": "clean",
+    "8": "Underground"
   },
 
   "Questions": {

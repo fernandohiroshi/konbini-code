@@ -14,35 +14,35 @@ export function Templates() {
   const t = useTranslations('Templates')
   const cards = [
     {
-      title: t('0'),
+      title: t('1'),
       src: minimalist,
     },
     {
-      title: t('1'),
+      title: t('2'),
       src: modern,
     },
     {
-      title: t('2'),
+      title: t('3'),
       src: organic,
     },
     {
-      title: t('3'),
+      title: t('4'),
       src: bentobox,
     },
     {
-      title: t('4'),
+      title: t('5'),
       src: anime,
     },
     {
-      title: t('5'),
+      title: t('6'),
       src: illustration,
     },
     {
-      title: t('6'),
+      title: t('7'),
       src: clean,
     },
     {
-      title: t('7'),
+      title: t('8'),
       src: underground,
     },
   ]

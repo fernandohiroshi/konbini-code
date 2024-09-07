@@ -14,27 +14,27 @@ export function Features() {
 
   const features = [
     {
-      title: t('Feature1.title'),
-      description: t('Feature1.description'),
+      title: t('1.title'),
+      description: t('1.description'),
       skeleton: <SkeletonOne />,
       className:
         'col-span-1 lg:col-span-4 border-b lg:border-r dark:border-neutral-800',
     },
     {
-      title: t('Feature2.title'),
-      description: t('Feature2.description'),
+      title: t('2.title'),
+      description: t('2.description'),
       skeleton: <SkeletonTwo />,
       className: 'border-b col-span-1 lg:col-span-2 dark:border-neutral-800',
     },
     {
-      title: t('Feature3.title'),
-      description: t('Feature3.description'),
+      title: t('3.title'),
+      description: t('3.description'),
       skeleton: <SkeletonThree />,
       className: 'col-span-1 lg:col-span-3 lg:border-r dark:border-neutral-800',
     },
     {
-      title: t('Feature4.title'),
-      description: t('Feature4.description'),
+      title: t('4.title'),
+      description: t('4.description'),
       skeleton: <SkeletonFour />,
       className: 'col-span-1 lg:col-span-3 border-b lg:border-none',
     },

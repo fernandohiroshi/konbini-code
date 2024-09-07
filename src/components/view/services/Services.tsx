@@ -15,38 +15,38 @@ export function Services() {
 
   const services = [
     {
-      title: t('Service1.title'),
-      description: t('Service1.description'),
+      title: t('1.title'),
+      description: t('1.description'),
       icon: <IconFileText />,
       className: 'col-span-1 lg:col-span-2',
     },
     {
-      title: t('Service2.title'),
-      description: t('Service2.description'),
+      title: t('2.title'),
+      description: t('2.description'),
       icon: <IconPalette />,
       className: 'col-span-1 lg:col-span-2',
     },
     {
-      title: t('Service3.title'),
-      description: t('Service3.description'),
+      title: t('3.title'),
+      description: t('3.description'),
       icon: <IconArticle />,
       className: 'col-span-1 lg:col-span-2',
     },
     {
-      title: t('Service4.title'),
-      description: t('Service4.description'),
+      title: t('4.title'),
+      description: t('4.description'),
       icon: <IconSettings />,
       className: 'col-span-1 lg:col-span-2',
     },
     {
-      title: t('Service5.title'),
-      description: t('Service5.description'),
+      title: t('5.title'),
+      description: t('5.description'),
       icon: <IconCalendarEvent />,
       className: 'col-span-1 lg:col-span-2',
     },
     {
-      title: t('Service6.title'),
-      description: t('Service6.description'),
+      title: t('6.title'),
+      description: t('6.description'),
       icon: <IconBuildingSkyscraper />,
     },
   ]
