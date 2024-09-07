@@ -82,5 +82,25 @@
     "5": "Ilustração",
     "6": "clean",
     "7": "Underground"
+  },
+
+  "Questions": {
+    "section-title": "Principais Perguntas e Preocupações",
+    "Question1": {
+      "question": "Quanto tempo leva para criar um site?",
+      "response": "O tempo necessário depende da complexidade, design e tamanho do conteúdo. Para projetos simples, o site pode ser concluído em menos de 2 semanas."
+    },
+    "Question2": {
+      "question": "O que é um site CMS?",
+      "response": "Um CMS (Sistema de Gerenciamento de Conteúdo) permite que você gerencie facilmente o conteúdo do seu site, como fotos, títulos e descrições, através de um painel intuitivo. Usamos o Cosmic JS, conhecido por sua simplicidade e interface amigável. Para mais detalhes, visite o site cosmicjs.com."
+    },
+    "Question3": {
+      "question": "Quanto custa um site?",
+      "response": "O custo de um site varia muito dependendo de vários fatores, incluindo o tamanho do site, a complexidade do design e os requisitos de hospedagem. Cada projeto é único e requer uma avaliação baseada nas necessidades e na visão do cliente. Oferecemos soluções econômicas com designs modernos e autênticos que atendem a diferentes orçamentos."
+    },
+    "Question4": {
+      "question": "Os sites são adaptados para diferentes dispositivos?",
+      "response": "Sim, nossos sites são responsivos e se ajustam a smartphones, tablets, desktops e monitores grandes. Usamos técnicas como layout em grade para garantir uma boa visualização em todos os dispositivos."
+    }
   }
 }

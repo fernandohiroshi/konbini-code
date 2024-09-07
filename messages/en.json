@@ -77,5 +77,25 @@
     "5": "Illustration",
     "6": "clean",
     "7": "Underground"
+  },
+
+  "Questions": {
+    "section-title": "Frequently Asked Questions",
+    "1": {
+      "question": "How long does it take to create a website?",
+      "response": "The time required depends on the complexity, design, and content size. For simple projects, the website can be completed in less than 2 weeks."
+    },
+    "2": {
+      "question": "What is a CMS website?",
+      "response": "A CMS (Content Management System) allows you to easily manage your site's content, such as photos, titles, and descriptions, through an intuitive dashboard. We use Cosmic JS, known for its simplicity and user-friendly interface. For more details, visit the cosmicjs.com."
+    },
+    "3": {
+      "question": "How much do websites cost?",
+      "response": "The cost of a website varies greatly depending on several factors, including the size of the site, the design complexity, and hosting requirements. Each project is unique and requires an evaluation based on the client's needs and vision. We offer cost-effective solutions with modern and authentic designs that meet various budget requirements."
+    },
+    "4": {
+      "question": "Are the websites adapted for different devices?",
+      "response": "Yes, our websites are responsive and adjust to smartphones, tablets, desktops, and large monitors. We use techniques like grid layout to ensure good viewing across all devices."
+    }
   }
 }
