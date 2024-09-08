@@ -1,4 +1,6 @@
-import { Link } from '@/i18n/routing'
+'use client'
+
+import { Link, usePathname } from '@/i18n/routing'
 import { Languages } from 'lucide-react'
 import { useTranslations } from 'next-intl'
 import * as React from 'react'
@@ -13,6 +15,7 @@ import {
 
 export function LanguageToggle() {
   const t = useTranslations('Languages')
+  const pathname = usePathname()
 
   return (
     <DropdownMenu>
@@ -22,15 +25,15 @@ export function LanguageToggle() {
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent>
-        <Link href="/" locale="en">
+        <Link href={pathname} locale="en">
           <DropdownMenuItem>{t('en')}</DropdownMenuItem>
         </Link>
 
-        <Link href="/" locale="ja">
+        <Link href={pathname} locale="ja">
           <DropdownMenuItem>{t('ja')}</DropdownMenuItem>
         </Link>
 
-        <Link href="/" locale="pt">
+        <Link href={pathname} locale="pt">
           <DropdownMenuItem>{t('pt')}</DropdownMenuItem>
         </Link>
       </DropdownMenuContent>
