@@ -10,11 +10,11 @@ import {
 export function Questions() {
   const t = useTranslations('Questions')
   return (
-    <section>
+    <section className="mb-20 md:mb-40">
       <h2 className="mb-4 animate-pulse text-xl md:text-4xl">
         {t('section-title')}
       </h2>
-      <Accordion type="single" collapsible className="mb-20 w-full md:mb-40">
+      <Accordion type="single" collapsible className="w-full">
         <AccordionItem value="item-1">
           <AccordionTrigger>{t('1.question')}</AccordionTrigger>
           <AccordionContent>{t('1.response')}</AccordionContent>

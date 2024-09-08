@@ -48,7 +48,7 @@ export function Templates() {
   ]
 
   return (
-    <section className="mb-32">
+    <section className="mb-20 md:mb-40">
       <h2 className="mb-2 animate-pulse text-xl text-purple-500 md:text-4xl">
         {t('section-title')}
       </h2>

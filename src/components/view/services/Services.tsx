@@ -51,7 +51,7 @@ export function Services() {
     },
   ]
   return (
-    <section className="mb-32">
+    <section>
       <h2 className="text-xl md:text-3xl">{t('section-title')}</h2>
 
       <div className="relative z-10 mx-auto grid max-w-7xl grid-cols-1 py-10 md:grid-cols-2 lg:grid-cols-3">
