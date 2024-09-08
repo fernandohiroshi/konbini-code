@@ -1,5 +1,4 @@
 import { Link } from '@/i18n/routing'
-import logo from '@/images/logo.png'
 import { useTranslations } from 'next-intl'
 import Image from 'next/image'
 
@@ -13,7 +12,7 @@ export function Header() {
       <div className="mx-auto hidden max-w-7xl items-center justify-between px-8 py-4 lg:flex">
         <Link href="/" className="flex items-center gap-2">
           <Image
-            src={logo}
+            src="https://cdn.cosmicjs.com/38ab92d0-6e1d-11ef-a492-5bdc7520fe60-logo.png"
             quality={100}
             width={32}
             height={32}
@@ -27,7 +26,7 @@ export function Header() {
       <div className="flex justify-between px-3 py-4 md:px-8 lg:hidden">
         <Link href="/" className="flex items-center gap-2">
           <Image
-            src={logo}
+            src="https://cdn.cosmicjs.com/38ab92d0-6e1d-11ef-a492-5bdc7520fe60-logo.png"
             quality={100}
             width={32}
             height={32}

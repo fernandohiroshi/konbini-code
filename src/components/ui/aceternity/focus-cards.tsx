@@ -1,6 +1,6 @@
 'use client'
 
-import Image, { StaticImageData } from 'next/image'
+import Image from 'next/image'
 import React, { useState } from 'react'
 
 import { cn } from '@/lib/utils'
@@ -30,6 +30,7 @@ export const Card = React.memo(
         alt={card.title}
         fill
         className="absolute inset-0 object-cover"
+        quality={100}
       />
       <div
         className={cn(
@@ -49,7 +50,7 @@ Card.displayName = 'Card'
 
 type Card = {
   title: string
-  src: StaticImageData
+  src: string
 }
 
 export function FocusCards({ cards }: { cards: Card[] }) {

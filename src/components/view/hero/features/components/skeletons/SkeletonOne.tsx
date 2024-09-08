@@ -1,4 +1,3 @@
-import aboutImg from '@/images/hero/s1_01.png'
 import Image from 'next/image'
 
 export function SkeletonOne() {
@@ -6,13 +5,13 @@ export function SkeletonOne() {
     <div className="relative flex h-full gap-10 px-2 py-8">
       <div className="group mx-auto h-full w-full bg-white p-5 shadow-2xl dark:bg-neutral-900">
         <div className="flex h-full w-full flex-1 flex-col space-y-2">
-          {/* TODO */}
           <Image
-            src={aboutImg}
+            src="https://cdn.cosmicjs.com/f0b10f50-6e1c-11ef-a492-5bdc7520fe60-s1_01.png"
             alt="header"
             width={800}
             height={800}
             className="aspect-square h-full w-full rounded-sm object-cover object-left-top"
+            quality={100}
           />
         </div>
       </div>

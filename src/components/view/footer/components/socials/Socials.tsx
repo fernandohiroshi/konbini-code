@@ -1,8 +1,5 @@
 'use client'
 
-import instagram from '@/images/socials/instagram.png'
-import linkedin from '@/images/socials/linkedin.png'
-import whatsapp from '@/images/socials/whatsapp.png'
 import { animate, motion } from 'framer-motion'
 import { useTranslations } from 'next-intl'
 import Image from 'next/image'
@@ -50,7 +47,7 @@ const Skeleton = () => {
         >
           <Container className="circle-1 h-16 w-16">
             <Image
-              src={whatsapp}
+              src="https://cdn.cosmicjs.com/04daf4a0-6e1d-11ef-a492-5bdc7520fe60-whatsapp.png"
               alt="WhatsApp"
               width={32}
               height={32}
@@ -65,7 +62,7 @@ const Skeleton = () => {
         >
           <Container className="circle-2 h-24 w-24">
             <Image
-              src={instagram}
+              src="https://cdn.cosmicjs.com/04dbb7f0-6e1d-11ef-a492-5bdc7520fe60-instagram.png"
               alt="Instagram"
               width={40}
               height={40}
@@ -80,7 +77,7 @@ const Skeleton = () => {
         >
           <Container className="circle-3 h-16 w-16">
             <Image
-              src={linkedin}
+              src="https://cdn.cosmicjs.com/04abce50-6e1d-11ef-a492-5bdc7520fe60-linkedin.png"
               alt="LinkedIn"
               width={32}
               height={32}

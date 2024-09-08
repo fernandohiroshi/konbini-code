@@ -1,25 +1,27 @@
 'use client'
 
-import s2_01 from '@/images/hero/S2_01.png'
-import s2_02 from '@/images/hero/s2_02.png'
-import s2_03 from '@/images/hero/s2_03.png'
-import s2_04 from '@/images/hero/s2_04.png'
-import s2_05 from '@/images/hero/s2_05.png'
-import s2_06 from '@/images/hero/s2_06.png'
-import s2_07 from '@/images/hero/s2_07.png'
-import s2_08 from '@/images/hero/s2_08.png'
-import s2_09 from '@/images/hero/s2_09.png'
-import s2_10 from '@/images/hero/s2_10.png'
-import s2_11 from '@/images/hero/s2_11.png'
-import s2_12 from '@/images/hero/s2_12.png'
-import s2_13 from '@/images/hero/s2_13.png'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 
 export function SkeletonTwo() {
-  const images = [s2_01, s2_02, s2_03, s2_04, s2_05, s2_06, s2_07]
+  const images = [
+    'https://cdn.cosmicjs.com/efd70300-6e1c-11ef-a492-5bdc7520fe60-S2_01.png',
+    'https://cdn.cosmicjs.com/f0651230-6e1c-11ef-a492-5bdc7520fe60-s2_02.png',
+    'https://cdn.cosmicjs.com/f01df710-6e1c-11ef-a492-5bdc7520fe60-s2_03.png',
+    'https://cdn.cosmicjs.com/effa9090-6e1c-11ef-a492-5bdc7520fe60-s2_04.png',
+    'https://cdn.cosmicjs.com/f0cb7520-6e1c-11ef-a492-5bdc7520fe60-s2_05.png',
+    'https://cdn.cosmicjs.com/f086f210-6e1c-11ef-a492-5bdc7520fe60-s2_06.png',
+    'https://cdn.cosmicjs.com/f0b6b4a0-6e1c-11ef-a492-5bdc7520fe60-s2_07.png',
+  ]
 
-  const images2 = [s2_08, s2_09, s2_10, s2_11, s2_12, s2_13]
+  const images2 = [
+    'https://cdn.cosmicjs.com/f0429610-6e1c-11ef-a492-5bdc7520fe60-s2_08.png',
+    'https://cdn.cosmicjs.com/f0415d90-6e1c-11ef-a492-5bdc7520fe60-s2_09.png',
+    'https://cdn.cosmicjs.com/f0b52e00-6e1c-11ef-a492-5bdc7520fe60-s2_10.png',
+    'https://cdn.cosmicjs.com/f0b2e410-6e1c-11ef-a492-5bdc7520fe60-s2_11.png',
+    'https://cdn.cosmicjs.com/f0ae2920-6e1c-11ef-a492-5bdc7520fe60-s2_12.png',
+    'https://cdn.cosmicjs.com/f0ad17b0-6e1c-11ef-a492-5bdc7520fe60-s2_13.png',
+  ]
 
   const imageVariants = {
     whileHover: {

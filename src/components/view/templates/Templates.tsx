@@ -1,11 +1,3 @@
-import anime from '@/images/templates/anime-game.jpg'
-import bentobox from '@/images/templates/bentobox.png'
-import clean from '@/images/templates/clean.png'
-import illustration from '@/images/templates/illustration.png'
-import minimalist from '@/images/templates/minimalist.png'
-import modern from '@/images/templates/modern.png'
-import organic from '@/images/templates/organic.png'
-import underground from '@/images/templates/underground.png'
 import { useTranslations } from 'next-intl'
 
 import { FocusCards } from '@/components/ui/aceternity/focus-cards'
@@ -15,35 +7,35 @@ export function Templates() {
   const cards = [
     {
       title: t('1'),
-      src: minimalist,
+      src: 'https://cdn.cosmicjs.com/cdb5fb50-6e1c-11ef-a492-5bdc7520fe60-minimalist.png',
     },
     {
       title: t('2'),
-      src: modern,
+      src: 'https://cdn.cosmicjs.com/cdb31520-6e1c-11ef-a492-5bdc7520fe60-modern.png',
     },
     {
       title: t('3'),
-      src: organic,
+      src: 'https://cdn.cosmicjs.com/cdb22ac0-6e1c-11ef-a492-5bdc7520fe60-organic.png',
     },
     {
       title: t('4'),
-      src: bentobox,
+      src: 'https://cdn.cosmicjs.com/cda4e450-6e1c-11ef-a492-5bdc7520fe60-bentobox.png',
     },
     {
       title: t('5'),
-      src: anime,
+      src: 'https://cdn.cosmicjs.com/cdb0f240-6e1c-11ef-a492-5bdc7520fe60-anime-game.jpg',
     },
     {
       title: t('6'),
-      src: illustration,
+      src: 'https://cdn.cosmicjs.com/cd817dd0-6e1c-11ef-a492-5bdc7520fe60-illustration.png',
     },
     {
       title: t('7'),
-      src: clean,
+      src: 'https://cdn.cosmicjs.com/cdb3b160-6e1c-11ef-a492-5bdc7520fe60-clean.png',
     },
     {
       title: t('8'),
-      src: underground,
+      src: 'https://cdn.cosmicjs.com/cdb69790-6e1c-11ef-a492-5bdc7520fe60-underground.png',
     },
   ]
 
