@@ -53,7 +53,7 @@ const ContactForm: React.FC = () => {
         <p className="hidden text-sm opacity-80 md:block">{t('description')}</p>
       </div>
 
-      <form onSubmit={sendEmail} className="flex flex-col gap-3">
+      <form onSubmit={sendEmail} className="flex flex-col gap-3 text-sm">
         <input
           className="rounded-lg px-4 py-2 outline-none"
           type="text"

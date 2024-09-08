@@ -51,10 +51,10 @@ export function Services() {
     },
   ]
   return (
-    <section>
-      <h2 className="text-xl md:text-3xl">{t('section-title')}</h2>
+    <section className="md:mb-40">
+      <h2 className="mb-4 text-xl md:mb-8 md:text-3xl">{t('section-title')}</h2>
 
-      <div className="relative z-10 mx-auto grid max-w-7xl grid-cols-1 py-10 md:grid-cols-2 lg:grid-cols-3">
+      <div className="relative z-10 mx-auto grid max-w-7xl grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {services.map((service, index) => (
           <Service key={service.title} {...service} index={index} />
         ))}

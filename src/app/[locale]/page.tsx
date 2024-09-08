@@ -6,7 +6,7 @@ import { Templates } from '@/components/view/templates/Templates'
 
 export default function Home() {
   return (
-    <main className="mx-auto max-w-7xl px-2 md:px-4">
+    <main className="mx-auto max-w-7xl px-3 md:px-4">
       <Features />
       <Services />
       <Templates />

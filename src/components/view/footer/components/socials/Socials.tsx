@@ -175,7 +175,12 @@ export const CardDescription = ({
   className?: string
 }) => {
   return (
-    <p className={cn('max-w-sm text-sm font-normal opacity-80', className)}>
+    <p
+      className={cn(
+        'max-w-sm text-xs font-normal opacity-80 md:text-sm',
+        className,
+      )}
+    >
       {children}
     </p>
   )
@@ -193,7 +198,7 @@ export const CardSkeletonContainer = ({
   return (
     <div
       className={cn(
-        'z-40 h-[15rem] rounded-xl md:h-[18rem]',
+        'z-40 h-[16rem] rounded-xl lg:h-[18rem]',
         className,
         showGradient &&
           'bg-zinc-200 [mask-image:radial-gradient(80%_80%_at_50%_50%,white_0%,transparent_100%)] dark:bg-transparent',
