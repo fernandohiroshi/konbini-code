@@ -38,20 +38,20 @@ export function MobileMenu() {
         </MenubarTrigger>
         {isOpen && (
           <MenubarContent className="lg:hidden">
-            <Link href="/#about" onClick={closeMenu}>
-              <MenubarItem> {t('about')}</MenubarItem>
+            <Link href="/#about">
+              <MenubarItem onClick={closeMenu}> {t('about')}</MenubarItem>
             </Link>
-            <Link href="/#services" onClick={closeMenu}>
-              <MenubarItem>{t('services')}</MenubarItem>
+            <Link href="/#services">
+              <MenubarItem onClick={closeMenu}>{t('services')}</MenubarItem>
             </Link>
-            <Link href="/templates" onClick={closeMenu}>
-              <MenubarItem>{t('templates')}</MenubarItem>
+            <Link href="/templates">
+              <MenubarItem onClick={closeMenu}>{t('templates')}</MenubarItem>
             </Link>
-            <Link href="/#questions" onClick={closeMenu}>
-              <MenubarItem> {t('questions')}</MenubarItem>
+            <Link href="/#questions">
+              <MenubarItem onClick={closeMenu}> {t('questions')}</MenubarItem>
             </Link>
-            <Link href="#contact" onClick={closeMenu}>
-              <MenubarItem> {t('contact')}</MenubarItem>
+            <Link href="#contact">
+              <MenubarItem onClick={closeMenu}> {t('contact')}</MenubarItem>
             </Link>
             <MenubarSeparator />
             <MenubarItem className="flex items-center justify-evenly">
