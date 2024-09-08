@@ -48,13 +48,7 @@ export function Templates() {
   ]
 
   return (
-    <section className="mb-20 md:mb-40">
-      <h2 className="mb-2 animate-pulse text-xl text-purple-500 md:text-4xl">
-        {t('section-title')}
-      </h2>
-      <p className="mb-6 text-xs text-neutral-500 dark:text-neutral-300 md:text-base">
-        {t('description')}
-      </p>
+    <section className="mb-20">
       <FocusCards cards={cards} />
     </section>
   )

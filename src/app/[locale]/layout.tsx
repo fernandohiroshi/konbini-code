@@ -6,6 +6,7 @@ import { Raleway } from 'next/font/google'
 
 import { ThemeProvider } from '@/components/themes/ThemeProvider'
 import { Header } from '@/components/view/header/Header'
+import { Footer } from '@/components/view/footer/Footer'
 
 const raleway = Raleway({ subsets: ['latin'] })
 
@@ -37,6 +38,7 @@ export default async function LocaleLayout({
           <NextIntlClientProvider messages={messages}>
             <Header />
             {children}
+            <Footer />
           </NextIntlClientProvider>
         </ThemeProvider>
       </body>
