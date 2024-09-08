@@ -40,7 +40,7 @@ export function Features() {
     },
   ]
   return (
-    <div className="relative z-20 mx-auto max-w-7xl py-10 lg:py-40">
+    <div className="relative z-20 mx-auto max-w-7xl pb-20 pt-20 md:pt-40">
       <div className="px-8">
         <h1 className="mx-auto max-w-4xl animate-pulse text-center text-2xl font-medium tracking-tight text-purple-500 md:text-4xl lg:text-5xl lg:leading-tight">
           {t('section-title')}
