@@ -1,8 +1,9 @@
 'use client'
 
 import { AlignJustify, X } from 'lucide-react'
+import { useTheme } from 'next-themes'
 import Link from 'next/link'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 import { ThemeToggle } from '@/components/themes/ThemeToggle'
 import {
@@ -17,10 +18,15 @@ import { LanguageToggle } from '@/components/view/languages/LanguageToggle'
 
 export function MobileMenu() {
   const [isOpen, setIsOpen] = useState(false)
+  const { theme } = useTheme() // Hook para capturar o tema atual
 
   const toggleMenu = () => setIsOpen(!isOpen)
 
   const closeMenu = () => setIsOpen(false)
+
+  useEffect(() => {
+    setIsOpen(false)
+  }, [theme])
 
   return (
     <Menubar>
