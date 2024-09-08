@@ -1,92 +1,47 @@
 import { Link } from '@/i18n/routing'
 import { useTranslations } from 'next-intl'
-import * as React from 'react'
-
-import { cn } from '@/lib/utils'
 
 import { ThemeToggle } from '@/components/themes/ThemeToggle'
-import {
-  NavigationMenu,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-  navigationMenuTriggerStyle,
-} from '@/components/ui/shadcn/navigation-menu'
 import { LanguageToggle } from '@/components/view/languages/LanguageToggle'
 
 export function Nav() {
   const t = useTranslations('Nav')
   return (
-    <NavigationMenu>
-      <NavigationMenuList>
-        <NavigationMenuItem>
-          <Link href="/#about" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              {t('about')}
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
-
-        <NavigationMenuItem>
-          <Link href="/#services" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              {t('services')}
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
-
-        <NavigationMenuItem>
-          <Link href="/templates" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              {t('templates')}
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
-
-        <NavigationMenuItem>
-          <Link href="/#questions" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              {t('questions')}
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
-
-        <NavigationMenuItem>
-          <Link href="#contact" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              {t('contact')}
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
+    <nav className="flex items-center justify-end gap-2">
+      <Link
+        className="rounded-md px-3 py-1 duration-500 ease-in-out hover:bg-accent"
+        href="/#about"
+      >
+        {t('about')}
+      </Link>
+      <Link
+        className="rounded-md px-3 py-1 duration-500 ease-in-out hover:bg-accent"
+        href="/#services"
+      >
+        {t('services')}
+      </Link>
+      <Link
+        className="rounded-md px-3 py-1 duration-500 ease-in-out hover:bg-accent"
+        href="/templates"
+      >
+        {t('templates')}
+      </Link>
+      <Link
+        className="rounded-md px-3 py-1 duration-500 ease-in-out hover:bg-accent"
+        href="/#questions"
+      >
+        {t('questions')}
+      </Link>
+      <Link
+        className="rounded-md px-3 py-1 duration-500 ease-in-out hover:bg-accent"
+        href="#contact"
+      >
+        {t('contact')}
+      </Link>
+      <div className="flex items-center gap-2">
         <LanguageToggle />
         <ThemeToggle />
-      </NavigationMenuList>
-    </NavigationMenu>
+      </div>
+    </nav>
   )
 }
-
-const ListItem = React.forwardRef<
-  React.ElementRef<'a'>,
-  React.ComponentPropsWithoutRef<'a'>
->(({ className, title, children, ...props }, ref) => {
-  return (
-    <li>
-      <NavigationMenuLink asChild>
-        <a
-          ref={ref}
-          className={cn(
-            'block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground',
-            className,
-          )}
-          {...props}
-        >
-          <div className="text-sm font-medium leading-none">{title}</div>
-          <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-            {children}
-          </p>
-        </a>
-      </NavigationMenuLink>
-    </li>
-  )
-})
-ListItem.displayName = 'ListItem'
