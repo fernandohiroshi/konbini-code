@@ -82,7 +82,7 @@
   "Questions": {
     "section-title": "Frequently Asked Questions",
     "1": {
-      "question": "How long does it take to create a website?",
+      "question": "How long does it take to create a site?",
       "response": "The time required depends on the complexity, design, and content size. For simple projects, the website can be completed in less than 2 weeks."
     },
     "2": {
@@ -94,8 +94,22 @@
       "response": "The cost of a website varies greatly depending on several factors, including the size of the site, the design complexity, and hosting requirements. Each project is unique and requires an evaluation based on the client's needs and vision. We offer cost-effective solutions with modern and authentic designs that meet various budget requirements."
     },
     "4": {
-      "question": "Are the websites adapted for different devices?",
+      "question": "Adapted for different devices?",
       "response": "Yes, our websites are responsive and adjust to smartphones, tablets, desktops, and large monitors. We use techniques like grid layout to ensure good viewing across all devices."
     }
+  },
+
+  "ContactForm": {
+    "section-title": "Contact Us",
+    "description": "If you prefer, send me an email and share your ideas!",
+    "yourName": "Your Name",
+    "email": "Your email",
+    "message": "Message",
+    "submit": "Submit"
+  },
+
+  "Socials": {
+    "section-title": "Partnerships and Networking",
+    "description": "Im Fernando Hiroshi, CEO of Konbini Web, available to exchange ideas and discuss professional partnerships."
   }
 }

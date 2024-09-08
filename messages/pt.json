@@ -102,5 +102,19 @@
       "question": "Os sites são adaptados para diferentes dispositivos?",
       "response": "Sim, nossos sites são responsivos e se ajustam a smartphones, tablets, desktops e monitores grandes. Usamos técnicas como layout em grade para garantir uma boa visualização em todos os dispositivos."
     }
+  },
+
+  "ContactForm": {
+    "section-title": "Entre em contato",
+    "description": "Se preferir, envie-me um e-mail e compartilhe suas ideias!",
+    "yourName": "Seu nome",
+    "email": "Seu e-mail",
+    "message": "Mensagem",
+    "submit": "Enviar"
+  },
+
+  "Socials": {
+    "title": "Parcerias e Networking",
+    "description": "Sou Fernando Hiroshi, CEO da Konbini Web, disponível para trocar ideias e discutir parcerias profissionais."
   }
 }
