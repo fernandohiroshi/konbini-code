@@ -1,8 +1,9 @@
 'use client'
 
+import { Link } from '@/i18n/routing'
 import { AlignJustify, X } from 'lucide-react'
+import { useTranslations } from 'next-intl'
 import { useTheme } from 'next-themes'
-import Link from 'next/link'
 import { useState, useEffect } from 'react'
 
 import { ThemeToggle } from '@/components/themes/ThemeToggle'
@@ -18,7 +19,8 @@ import { LanguageToggle } from '@/components/view/languages/LanguageToggle'
 
 export function MobileMenu() {
   const [isOpen, setIsOpen] = useState(false)
-  const { theme } = useTheme() // Hook para capturar o tema atual
+  const { theme } = useTheme()
+  const t = useTranslations('Nav')
 
   const toggleMenu = () => setIsOpen(!isOpen)
 
@@ -36,17 +38,20 @@ export function MobileMenu() {
         </MenubarTrigger>
         {isOpen && (
           <MenubarContent className="lg:hidden">
-            <Link href="#services" onClick={closeMenu}>
-              <MenubarItem>Services</MenubarItem>
+            <Link href="/#about" onClick={closeMenu}>
+              <MenubarItem> {t('about')}</MenubarItem>
             </Link>
-            <Link href="#templates" onClick={closeMenu}>
-              <MenubarItem>Templates</MenubarItem>
+            <Link href="/#services" onClick={closeMenu}>
+              <MenubarItem>{t('services')}</MenubarItem>
             </Link>
-            <Link href="#questions" onClick={closeMenu}>
-              <MenubarItem>Questions</MenubarItem>
+            <Link href="/templates" onClick={closeMenu}>
+              <MenubarItem>{t('templates')}</MenubarItem>
+            </Link>
+            <Link href="/#questions" onClick={closeMenu}>
+              <MenubarItem> {t('questions')}</MenubarItem>
             </Link>
             <Link href="#contact" onClick={closeMenu}>
-              <MenubarItem>Contact</MenubarItem>
+              <MenubarItem> {t('contact')}</MenubarItem>
             </Link>
             <MenubarSeparator />
             <MenubarItem className="flex items-center justify-evenly">

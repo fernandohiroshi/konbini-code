@@ -1,5 +1,5 @@
+import { Link } from '@/i18n/routing'
 import { useTranslations } from 'next-intl'
-import Link from 'next/link'
 import * as React from 'react'
 
 import { cn } from '@/lib/utils'
@@ -20,7 +20,7 @@ export function Nav() {
     <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
-          <Link href="#about" legacyBehavior passHref>
+          <Link href="/#about" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               {t('about')}
             </NavigationMenuLink>
@@ -28,7 +28,7 @@ export function Nav() {
         </NavigationMenuItem>
 
         <NavigationMenuItem>
-          <Link href="#services" legacyBehavior passHref>
+          <Link href="/#services" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               {t('services')}
             </NavigationMenuLink>
@@ -36,7 +36,7 @@ export function Nav() {
         </NavigationMenuItem>
 
         <NavigationMenuItem>
-          <Link href="#templates" legacyBehavior passHref>
+          <Link href="/templates" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               {t('templates')}
             </NavigationMenuLink>
@@ -44,7 +44,7 @@ export function Nav() {
         </NavigationMenuItem>
 
         <NavigationMenuItem>
-          <Link href="#questions" legacyBehavior passHref>
+          <Link href="/#questions" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               {t('questions')}
             </NavigationMenuLink>
