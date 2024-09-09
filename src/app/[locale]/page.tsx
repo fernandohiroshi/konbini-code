@@ -10,6 +10,10 @@ export default function Home() {
       <Services />
       <Questions />
       <Footer />
+      <p className="mb-8 text-center text-sm opacity-80">
+        © 2024 Konbini Code. Developed by Fernando Hiroshi. All rights
+        reserved.
+      </p>
     </main>
   )
 }
