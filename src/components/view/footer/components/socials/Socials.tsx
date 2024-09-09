@@ -87,7 +87,7 @@ const Skeleton = () => {
         </a>
       </div>
 
-      <div className="absolute top-20 z-40 m-auto h-40 w-px animate-move bg-gradient-to-b from-transparent via-purple-500 to-transparent">
+      <div className="absolute z-40 m-auto h-full w-px animate-move bg-gradient-to-b from-transparent via-purple-500 to-transparent">
         <div className="absolute -left-10 top-1/2 h-32 w-10 -translate-y-1/2">
           <Sparkles />
         </div>

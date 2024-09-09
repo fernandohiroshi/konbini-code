@@ -47,7 +47,7 @@ const ContactForm: React.FC = () => {
   return (
     <section className="flex w-full flex-col justify-between rounded-xl border bg-zinc-100 p-4 dark:bg-transparent md:p-8">
       <div className="mb-4">
-        <h2 className="mb-1 animate-pulse text-3xl font-semibold text-purple-500">
+        <h2 className="mb-1 animate-pulse text-2xl font-semibold text-purple-500">
           {t('section-title')}
         </h2>
         <p className="hidden text-sm opacity-80 md:block">{t('description')}</p>
