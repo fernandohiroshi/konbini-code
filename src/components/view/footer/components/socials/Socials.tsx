@@ -195,7 +195,7 @@ export const CardSkeletonContainer = ({
   return (
     <div
       className={cn(
-        'z-40 h-[16rem] rounded-xl lg:h-[18rem]',
+        'z-40 h-[18rem] rounded-xl',
         className,
         showGradient &&
           'bg-zinc-200 [mask-image:radial-gradient(80%_80%_at_50%_50%,white_0%,transparent_100%)] dark:bg-transparent',
