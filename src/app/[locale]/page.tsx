@@ -16,7 +16,7 @@ export default function Home() {
         <Questions />
         <Footer />
         <p className="mb:text-sm mb-8 text-center text-xs opacity-85">
-          © 2024 Konbini Code. All rights reserved.
+          © {`${new Date().getFullYear()}`} Konbini Code. All rights reserved.
         </p>
       </main>
     </>
