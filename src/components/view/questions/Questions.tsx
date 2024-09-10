@@ -10,7 +10,7 @@ import {
 export function Questions() {
   const t = useTranslations('Questions')
   return (
-    <section className="mb-20 scroll-mt-24" id="questions">
+    <section className="mb-20 scroll-mt-24 md:mb-40" id="questions">
       <h2 className="mb-4 animate-pulse text-xl md:text-4xl">
         {t('section-title')}
       </h2>
