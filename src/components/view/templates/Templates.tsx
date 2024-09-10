@@ -2,6 +2,8 @@ import { useTranslations } from 'next-intl'
 
 import { FocusCards } from '@/components/ui/aceternity/focus-cards'
 
+import { AnimateTitle } from './components/AnimateTitle'
+
 export function Templates() {
   const t = useTranslations('Templates')
   const cards = [
@@ -40,7 +42,8 @@ export function Templates() {
   ]
 
   return (
-    <section className="mb-20">
+    <section className="mb-20 scroll-mt-24 md:mb-40" id="templates">
+      <AnimateTitle />
       <FocusCards cards={cards} />
     </section>
   )

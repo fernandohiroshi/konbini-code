@@ -2,41 +2,27 @@ import { Link } from '@/i18n/routing'
 import { useTranslations } from 'next-intl'
 
 import { ThemeToggle } from '@/components/themes/ThemeToggle'
+import { Button } from '@/components/ui/shadcn/button'
 import { LanguageToggle } from '@/components/view/languages/LanguageToggle'
 
 export function Nav() {
   const t = useTranslations('Nav')
   return (
     <nav className="flex items-center justify-end gap-2">
-      <Link
-        className="rounded-md px-3 py-1 duration-500 ease-in-out hover:bg-accent"
-        href="/#about"
-      >
-        {t('about')}
+      <Link href="#about">
+        <Button variant="ghost">{t('about')}</Button>
       </Link>
-      <Link
-        className="rounded-md px-3 py-1 duration-500 ease-in-out hover:bg-accent"
-        href="/#services"
-      >
-        {t('services')}
+      <Link href="#services">
+        <Button variant="ghost"> {t('services')}</Button>
       </Link>
-      <Link
-        className="rounded-md px-3 py-1 duration-500 ease-in-out hover:bg-accent"
-        href="/templates"
-      >
-        {t('templates')}
+      <Link href="#templates">
+        <Button variant="ghost">{t('templates')}</Button>
       </Link>
-      <Link
-        className="rounded-md px-3 py-1 duration-500 ease-in-out hover:bg-accent"
-        href="/#questions"
-      >
-        {t('questions')}
+      <Link href="#questions">
+        <Button variant="ghost">{t('questions')}</Button>
       </Link>
-      <Link
-        className="rounded-md px-3 py-1 duration-500 ease-in-out hover:bg-accent"
-        href="#contact"
-      >
-        {t('contact')}
+      <Link href="#contact">
+        <Button variant="ghost">{t('contact')}</Button>
       </Link>
       <div className="flex items-center gap-2">
         <LanguageToggle />

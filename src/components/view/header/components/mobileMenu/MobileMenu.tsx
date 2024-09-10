@@ -38,26 +38,30 @@ export function MobileMenu() {
         </MenubarTrigger>
         {isOpen && (
           <MenubarContent className="lg:hidden">
-            <Link onClick={closeMenu} href="/#about">
+            <Link onClick={closeMenu} href="#about">
               <MenubarItem> {t('about')}</MenubarItem>
             </Link>
-            <Link onClick={closeMenu} href="/#services">
+            <Link onClick={closeMenu} href="#services">
               <MenubarItem>{t('services')}</MenubarItem>
             </Link>
-            <Link onClick={closeMenu} href="/templates">
+            <Link onClick={closeMenu} href="#templates">
               <MenubarItem>{t('templates')}</MenubarItem>
             </Link>
-            <Link onClick={closeMenu} href="/#questions">
+            <Link onClick={closeMenu} href="#questions">
               <MenubarItem> {t('questions')}</MenubarItem>
             </Link>
             <Link onClick={closeMenu} href="#contact">
               <MenubarItem> {t('contact')}</MenubarItem>
             </Link>
             <MenubarSeparator />
-            <MenubarItem className="flex items-center justify-evenly">
-              <LanguageToggle />
-              <ThemeToggle />
-            </MenubarItem>
+            <div className="flex items-center justify-center">
+              <MenubarItem>
+                <LanguageToggle />
+              </MenubarItem>
+              <MenubarItem>
+                <ThemeToggle />
+              </MenubarItem>
+            </div>
           </MenubarContent>
         )}
       </MenubarMenu>
