@@ -3,10 +3,10 @@ import Image from 'next/image'
 export function SkeletonOne() {
   return (
     <div className="relative flex h-full gap-10 px-2 py-8">
-      <div className="group mx-auto h-full w-full bg-white p-5 shadow-2xl dark:bg-neutral-900">
+      <div className="group mx-auto h-full w-full bg-white p-8 shadow-2xl dark:bg-neutral-900">
         <div className="flex h-full w-full flex-1 flex-col space-y-2">
           <Image
-            src="https://cdn.cosmicjs.com/f0b10f50-6e1c-11ef-a492-5bdc7520fe60-s1_01.png"
+            src="https://cdn.cosmicjs.com/fbf0b2b0-6fa4-11ef-a74a-0b2d32a43246-s1_01.jpg"
             alt="header"
             width={800}
             height={800}
