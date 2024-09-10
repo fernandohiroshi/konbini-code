@@ -17,9 +17,11 @@ export function Header() {
             width={32}
             height={32}
             alt="Konbini Code Logo"
-            className="duration-700 ease-in-out hover:scale-125 hover:brightness-125"
+            className="duration-500 ease-in-out hover:brightness-125 md:hover:scale-125"
           />
-          <span className="text-xl font-semibold lowercase"> {t('name')}</span>
+          <span className="text-xl font-semibold lowercase duration-500 ease-in-out hover:text-purple-500">
+            {t('name')}
+          </span>
         </Link>
         <Nav />
       </div>

@@ -55,7 +55,7 @@ const ContactForm: React.FC = () => {
 
       <form onSubmit={sendEmail} className="flex flex-col gap-3 text-sm">
         <input
-          className="rounded-lg px-4 py-2 outline-none"
+          className="rounded-lg px-4 py-2 outline-none dark:bg-zinc-950"
           type="text"
           placeholder={t('yourName')}
           onChange={(e) => setName(e.target.value)}
@@ -64,7 +64,7 @@ const ContactForm: React.FC = () => {
         />
 
         <input
-          className="rounded-lg px-4 py-2 outline-none"
+          className="rounded-lg px-4 py-2 outline-none dark:bg-zinc-950"
           type="text"
           placeholder={t('email')}
           onChange={(e) => setEmail(e.target.value)}
@@ -77,10 +77,12 @@ const ContactForm: React.FC = () => {
           onChange={(e) => setMessage(e.target.value)}
           value={message}
           required
-          className="h-[10rem] resize-none rounded-lg px-4 py-2 outline-none"
+          className="h-[10rem] resize-none rounded-lg px-4 py-2 outline-none dark:bg-zinc-950"
         />
         <div className="flex justify-end">
-          <Button type="submit">{t('submit')}</Button>
+          <Button variant="outline" type="submit">
+            {t('submit')}
+          </Button>
         </div>
       </form>
     </section>
