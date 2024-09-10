@@ -5,7 +5,6 @@ import { getMessages } from 'next-intl/server'
 import { Raleway } from 'next/font/google'
 
 import { ThemeProvider } from '@/components/themes/ThemeProvider'
-import { Header } from '@/components/view/header/Header'
 
 const raleway = Raleway({ subsets: ['latin'] })
 
@@ -34,7 +33,6 @@ export default async function LocaleLayout({
           disableTransitionOnChange
         >
           <NextIntlClientProvider messages={messages}>
-            <Header />
             {children}
           </NextIntlClientProvider>
         </ThemeProvider>
