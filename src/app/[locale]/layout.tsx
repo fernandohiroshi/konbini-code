@@ -9,10 +9,64 @@ import { ThemeProvider } from '@/components/themes/ThemeProvider'
 const raleway = Raleway({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Konbini Code',
-  description: 'Website Development Service',
-  icons:
-    'https://cdn.cosmicjs.com/25d09bb0-6e1d-11ef-a492-5bdc7520fe60-favicon.ico',
+  title: 'Konbini Code - Modern Website Development',
+  description:
+    'Konbini Code offers modern, responsive, and unique website development with cutting-edge UI/UX and front-end technologies.',
+  keywords: [
+    'Konbini Code',
+    'Website Development',
+    'Responsive Websites',
+    'Modern Web Design',
+    'UI/UX',
+    'Frontend Technologies',
+    'Multilingual Websites',
+    'Custom Portfolios',
+    'CMS Integration',
+    'Innovative Web Solutions',
+    'Unique Web Designs',
+    'Cosmic JS',
+    'Web Consulting',
+    'Event Websites',
+    'Corporate Websites',
+    'Digital Presence',
+  ],
+  robots: {
+    index: true,
+    follow: true,
+    nocache: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: false,
+    },
+  },
+  openGraph: {
+    title: 'Konbini Code - Modern Website Development',
+    description:
+      'Unique websites that combine simplicity, style, and the latest front-end technologies.',
+    url: 'https://konbinicode.com',
+    siteName: 'Konbini Code',
+    images: [
+      {
+        url: 'https://cdn.cosmicjs.com/1250ea90-7106-11ef-a74a-0b2d32a43246-openGraph.png',
+        width: 1200,
+        height: 630,
+        alt: 'Konbini Code Website Preview',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Konbini Code - Modern Website Development',
+    description:
+      'Providing unique and responsive websites with innovative designs.',
+    images: [
+      'https://cdn.cosmicjs.com/1250ea90-7106-11ef-a74a-0b2d32a43246-openGraph.png',
+    ],
+  },
+  icons: {
+    icon: 'https://cdn.cosmicjs.com/38ab92d0-6e1d-11ef-a492-5bdc7520fe60-logo.png',
+  },
 }
 
 export default async function LocaleLayout({
