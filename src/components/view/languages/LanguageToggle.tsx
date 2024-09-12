@@ -24,7 +24,7 @@ export function LanguageToggle() {
           <Languages className="h-[1.2rem] w-[1.2rem]" />
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent>
+      <DropdownMenuContent align="end">
         <Link href={pathname} locale="en">
           <DropdownMenuItem>{t('en')}</DropdownMenuItem>
         </Link>
