@@ -9,27 +9,27 @@ export function Templates() {
   const cards = [
     {
       title: t('1'),
-      src: 'https://cdn.cosmicjs.com/cdb5fb50-6e1c-11ef-a492-5bdc7520fe60-minimalist.png',
+      src: 'https://cdn.cosmicjs.com/eed0cd70-7118-11ef-a74a-0b2d32a43246-minimalist.jpg',
     },
     {
       title: t('2'),
-      src: 'https://cdn.cosmicjs.com/cdb31520-6e1c-11ef-a492-5bdc7520fe60-modern.png',
+      src: 'https://cdn.cosmicjs.com/ee8397d0-7118-11ef-a74a-0b2d32a43246-modern.jpg',
     },
     {
       title: t('3'),
-      src: 'https://cdn.cosmicjs.com/cdb22ac0-6e1c-11ef-a492-5bdc7520fe60-organic.png',
+      src: 'https://cdn.cosmicjs.com/eec89010-7118-11ef-a74a-0b2d32a43246-organic.jpg',
     },
     {
       title: t('4'),
-      src: 'https://cdn.cosmicjs.com/cda4e450-6e1c-11ef-a492-5bdc7520fe60-bentobox.png',
+      src: 'https://cdn.cosmicjs.com/eecef8b0-7118-11ef-a74a-0b2d32a43246-bentobox.jpg',
     },
     {
       title: t('5'),
-      src: 'https://cdn.cosmicjs.com/cdb0f240-6e1c-11ef-a492-5bdc7520fe60-anime-game.jpg',
+      src: 'https://cdn.cosmicjs.com/eec7a5b0-7118-11ef-a74a-0b2d32a43246-anime_game.jpg',
     },
     {
       title: t('6'),
-      src: 'https://cdn.cosmicjs.com/cd817dd0-6e1c-11ef-a492-5bdc7520fe60-illustration.png',
+      src: 'https://cdn.cosmicjs.com/ee82fb90-7118-11ef-a74a-0b2d32a43246-illustration.jpg',
     },
     {
       title: t('7'),
@@ -37,7 +37,7 @@ export function Templates() {
     },
     {
       title: t('8'),
-      src: 'https://cdn.cosmicjs.com/cdb69790-6e1c-11ef-a492-5bdc7520fe60-underground.png',
+      src: 'https://cdn.cosmicjs.com/eec6e260-7118-11ef-a74a-0b2d32a43246-underground.jpg',
     },
   ]
 
