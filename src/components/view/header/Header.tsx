@@ -12,7 +12,7 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full bg-white/60 backdrop-blur-2xl dark:bg-black/60">
       <div className="mx-auto hidden max-w-7xl items-center justify-between px-8 py-4 lg:flex">
-        <Link href="/" className="flex items-center gap-2">
+        <Link href="/" title="Home" className="flex items-center gap-2">
           <Image
             src="https://cdn.cosmicjs.com/38ab92d0-6e1d-11ef-a492-5bdc7520fe60-logo.png"
             quality={100}
@@ -31,6 +31,7 @@ export function Header() {
       {/* MOBILE */}
       <Link
         href="#"
+        title="Home"
         className="flex items-center justify-between px-4 py-4 lg:hidden"
       >
         <div className="flex items-center gap-2">

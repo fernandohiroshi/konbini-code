@@ -16,6 +16,7 @@ export default function NotFound() {
       </BackgroundGradientAnimation>
       <Link
         href="/"
+        title="Back to Home"
         className="absolute bottom-8 right-8 rounded-full bg-black/60 p-4 text-white shadow-2xl duration-500 ease-in-out hover:scale-90 hover:bg-white/80 hover:text-black"
       >
         <House size={30} />

@@ -49,6 +49,7 @@ const Skeleton = () => {
             <Image
               src="https://cdn.cosmicjs.com/04daf4a0-6e1d-11ef-a492-5bdc7520fe60-whatsapp.png"
               alt="WhatsApp"
+              title="WhatsApp"
               width={32}
               height={32}
               quality={100}
@@ -64,6 +65,7 @@ const Skeleton = () => {
             <Image
               src="https://cdn.cosmicjs.com/04dbb7f0-6e1d-11ef-a492-5bdc7520fe60-instagram.png"
               alt="Instagram"
+              title="Instagram"
               width={40}
               height={40}
               quality={100}
@@ -79,6 +81,7 @@ const Skeleton = () => {
             <Image
               src="https://cdn.cosmicjs.com/04abce50-6e1d-11ef-a492-5bdc7520fe60-linkedin.png"
               alt="LinkedIn"
+              title="Linkedin"
               width={32}
               height={32}
               quality={100}

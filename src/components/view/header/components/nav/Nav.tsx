@@ -9,19 +9,19 @@ export function Nav() {
   const t = useTranslations('Nav')
   return (
     <nav className="flex items-center justify-end gap-2">
-      <Link href="#about">
+      <Link title="About Us" href="#about">
         <Button variant="ghost">{t('about')}</Button>
       </Link>
-      <Link href="#services">
+      <Link title="Services" href="#services">
         <Button variant="ghost"> {t('services')}</Button>
       </Link>
-      <Link href="#templates">
+      <Link title="Templates" href="#templates">
         <Button variant="ghost">{t('templates')}</Button>
       </Link>
-      <Link href="#questions">
+      <Link title="Questions" href="#questions">
         <Button variant="ghost">{t('questions')}</Button>
       </Link>
-      <Link href="#contact">
+      <Link title="Contact" href="#contact">
         <Button variant="ghost">{t('contact')}</Button>
       </Link>
       <div className="flex items-center gap-2">

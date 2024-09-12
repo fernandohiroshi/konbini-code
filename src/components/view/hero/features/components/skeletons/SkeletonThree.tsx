@@ -1,12 +1,6 @@
-import Link from 'next/link'
-
 export function SkeletonThree() {
   return (
-    <Link
-      href="https://www.cosmicjs.com"
-      target="_blank"
-      className="group/image relative flex h-full gap-10"
-    >
+    <section className="group/image relative flex h-full gap-10">
       <div className="group mx-auto h-full w-full bg-transparent dark:bg-transparent">
         <div className="relative flex h-auto w-full flex-1 flex-col space-y-2">
           <video
@@ -16,9 +10,10 @@ export function SkeletonThree() {
             muted
             loop
             playsInline
+            title="CosmicJs CMS Preview"
           />
         </div>
       </div>
-    </Link>
+    </section>
   )
 }
