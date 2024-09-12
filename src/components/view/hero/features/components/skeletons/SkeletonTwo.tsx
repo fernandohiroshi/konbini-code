@@ -5,22 +5,22 @@ import Image from 'next/image'
 
 export function SkeletonTwo() {
   const images = [
-    'https://cdn.cosmicjs.com/7a2c7d90-7116-11ef-a74a-0b2d32a43246-s2_01.jpg',
-    'https://cdn.cosmicjs.com/7a27c2a0-7116-11ef-a74a-0b2d32a43246-s2_02.jpg',
-    'https://cdn.cosmicjs.com/7a346cd0-7116-11ef-a74a-0b2d32a43246-s2_03.jpg',
-    'https://cdn.cosmicjs.com/7a2bba40-7116-11ef-a74a-0b2d32a43246-s2_04.jpg',
-    'https://cdn.cosmicjs.com/7a12db10-7116-11ef-a74a-0b2d32a43246-s2_05.jpg',
-    'https://cdn.cosmicjs.com/7a2ec780-7116-11ef-a74a-0b2d32a43246-s2_06.jpg',
-    'https://cdn.cosmicjs.com/7a123ed0-7116-11ef-a74a-0b2d32a43246-s2_07.jpg',
+    'https://imgix.cosmicjs.com/7a2c7d90-7116-11ef-a74a-0b2d32a43246-s2_01.jpg',
+    'https://imgix.cosmicjs.com/7a27c2a0-7116-11ef-a74a-0b2d32a43246-s2_02.jpg',
+    'https://imgix.cosmicjs.com/7a346cd0-7116-11ef-a74a-0b2d32a43246-s2_03.jpg',
+    'https://imgix.cosmicjs.com/7a2bba40-7116-11ef-a74a-0b2d32a43246-s2_04.jpg',
+    'https://imgix.cosmicjs.com/7a12db10-7116-11ef-a74a-0b2d32a43246-s2_05.jpg',
+    'https://imgix.cosmicjs.com/7a2ec780-7116-11ef-a74a-0b2d32a43246-s2_06.jpg',
+    'https://imgix.cosmicjs.com/7a123ed0-7116-11ef-a74a-0b2d32a43246-s2_07.jpg',
   ]
 
   const images2 = [
-    'https://cdn.cosmicjs.com/7a338270-7116-11ef-a74a-0b2d32a43246-s2_08.jpg',
-    'https://cdn.cosmicjs.com/7a272660-7116-11ef-a74a-0b2d32a43246-s2_09.jpg',
-    'https://cdn.cosmicjs.com/7a2db610-7116-11ef-a74a-0b2d32a43246-s2_10.jpg',
-    'https://cdn.cosmicjs.com/7a25ede0-7116-11ef-a74a-0b2d32a43246-s2_11.jpg',
-    'https://cdn.cosmicjs.com/7a0ee370-7116-11ef-a74a-0b2d32a43246-s2_12.jpg',
-    'https://cdn.cosmicjs.com/7a08f000-7116-11ef-a74a-0b2d32a43246-s2_13.jpg',
+    'https://imgix.cosmicjs.com/7a338270-7116-11ef-a74a-0b2d32a43246-s2_08.jpg',
+    'https://imgix.cosmicjs.com/7a272660-7116-11ef-a74a-0b2d32a43246-s2_09.jpg',
+    'https://imgix.cosmicjs.com/7a2db610-7116-11ef-a74a-0b2d32a43246-s2_10.jpg',
+    'https://imgix.cosmicjs.com/7a25ede0-7116-11ef-a74a-0b2d32a43246-s2_11.jpg',
+    'https://imgix.cosmicjs.com/7a0ee370-7116-11ef-a74a-0b2d32a43246-s2_12.jpg',
+    'https://imgix.cosmicjs.com/7a08f000-7116-11ef-a74a-0b2d32a43246-s2_13.jpg',
   ]
 
   const imageVariants = {

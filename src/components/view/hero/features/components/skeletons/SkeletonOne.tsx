@@ -6,7 +6,7 @@ export function SkeletonOne() {
       <div className="group mx-auto h-full w-full bg-white p-8 shadow-2xl dark:bg-neutral-900">
         <div className="flex h-full w-full flex-1 flex-col space-y-2">
           <Image
-            src="https://cdn.cosmicjs.com/fbf0b2b0-6fa4-11ef-a74a-0b2d32a43246-s1_01.jpg"
+            src="https://imgix.cosmicjs.com/fbf0b2b0-6fa4-11ef-a74a-0b2d32a43246-s1_01.jpg"
             alt="header"
             width={800}
             height={800}

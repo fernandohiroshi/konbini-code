@@ -14,7 +14,7 @@ export function Header() {
       <div className="mx-auto hidden max-w-7xl items-center justify-between px-8 py-4 lg:flex">
         <Link href="/" title="Home" className="flex items-center gap-2">
           <Image
-            src="https://cdn.cosmicjs.com/ad0052f0-711b-11ef-9f27-0d70a946df1f-logo.png"
+            src="https://imgix.cosmicjs.com/ad0052f0-711b-11ef-9f27-0d70a946df1f-logo.png"
             quality={100}
             width={32}
             height={32}
@@ -36,7 +36,7 @@ export function Header() {
       >
         <div className="flex items-center gap-2">
           <Image
-            src="https://cdn.cosmicjs.com/ad0052f0-711b-11ef-9f27-0d70a946df1f-logo.png"
+            src="https://imgix.cosmicjs.com/ad0052f0-711b-11ef-9f27-0d70a946df1f-logo.png"
             quality={100}
             width={32}
             height={32}

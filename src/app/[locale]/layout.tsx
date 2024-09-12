@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     siteName: 'Konbini Code',
     images: [
       {
-        url: 'https://cdn.cosmicjs.com/fe785790-711b-11ef-9f27-0d70a946df1f-openGraph.jpg',
+        url: 'https://imgix.cosmicjs.com/fe785790-711b-11ef-9f27-0d70a946df1f-openGraph.jpg',
         width: 1200,
         height: 630,
         alt: 'Konbini Code Website Preview',
@@ -61,11 +61,11 @@ export const metadata: Metadata = {
     description:
       'Providing unique and responsive websites with innovative designs.',
     images: [
-      'https://cdn.cosmicjs.com/fe785790-711b-11ef-9f27-0d70a946df1f-openGraph.jpg',
+      'https://imgix.cosmicjs.com/fe785790-711b-11ef-9f27-0d70a946df1f-openGraph.jpg',
     ],
   },
   icons: {
-    icon: 'https://cdn.cosmicjs.com/ad0052f0-711b-11ef-9f27-0d70a946df1f-logo.png',
+    icon: 'https://imgix.cosmicjs.com/ad0052f0-711b-11ef-9f27-0d70a946df1f-logo.png',
   },
 }
 
