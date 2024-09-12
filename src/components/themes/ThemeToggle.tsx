@@ -1,6 +1,7 @@
 'use client'
 
 import { MoonIcon, SunIcon } from '@radix-ui/react-icons'
+import { useTranslations } from 'next-intl'
 import { useTheme } from 'next-themes'
 import * as React from 'react'
 
@@ -12,15 +13,9 @@ import {
   DropdownMenuTrigger,
 } from '@/components/ui/shadcn/dropdown-menu'
 
-import {
-  DarkModeItem,
-  LightModeItem,
-  SystemModeItem,
-} from './components/ThemeToggleItem'
-
 export function ThemeToggle() {
   const { setTheme } = useTheme()
-
+  const t = useTranslations('ThemeToggle')
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
@@ -32,13 +27,13 @@ export function ThemeToggle() {
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">
         <DropdownMenuItem onClick={() => setTheme('light')}>
-          <LightModeItem />
+          {t('light')}
         </DropdownMenuItem>
         <DropdownMenuItem onClick={() => setTheme('dark')}>
-          <DarkModeItem />
+          {t('dark')}
         </DropdownMenuItem>
         <DropdownMenuItem onClick={() => setTheme('system')}>
-          <SystemModeItem />
+          {t('system')}
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
