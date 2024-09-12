@@ -3,6 +3,12 @@
     "name": "コンビニコード"
   },
 
+  "ThemeToggle": {
+    "dark": "ダークモード",
+    "light": "ライトモード",
+    "system": "システム"
+  },
+
   "Nav": {
     "about": "について",
     "services": "サービス",

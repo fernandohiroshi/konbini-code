@@ -12,6 +12,12 @@ import {
   DropdownMenuTrigger,
 } from '@/components/ui/shadcn/dropdown-menu'
 
+import {
+  DarkModeItem,
+  LightModeItem,
+  SystemModeItem,
+} from './components/ThemeToggleItem'
+
 export function ThemeToggle() {
   const { setTheme } = useTheme()
 
@@ -26,13 +32,13 @@ export function ThemeToggle() {
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">
         <DropdownMenuItem onClick={() => setTheme('light')}>
-          Light
+          <LightModeItem />
         </DropdownMenuItem>
         <DropdownMenuItem onClick={() => setTheme('dark')}>
-          Dark
+          <DarkModeItem />
         </DropdownMenuItem>
         <DropdownMenuItem onClick={() => setTheme('system')}>
-          System
+          <SystemModeItem />
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>

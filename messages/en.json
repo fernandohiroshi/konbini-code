@@ -3,6 +3,12 @@
     "name": "Konbini Code"
   },
 
+  "ThemeToggle": {
+    "dark": "Dark Mode",
+    "light": "Light Mode",
+    "system": "System"
+  },
+
   "Nav": {
     "about": "About Us",
     "services": "Services",
