@@ -47,7 +47,7 @@ const Skeleton = () => {
         >
           <Container className="circle-1 h-16 w-16">
             <Image
-              src="https://imgix.cosmicjs.com/75ab21e0-711b-11ef-9f27-0d70a946df1f-whatsapp.png"
+              src="https://imgix.cosmicjs.com/4b66ec80-748a-11ef-98d9-cbcb72f3073e-whatsapp.png"
               alt="WhatsApp"
               title="WhatsApp"
               width={32}
@@ -63,7 +63,7 @@ const Skeleton = () => {
         >
           <Container className="circle-2 h-24 w-24">
             <Image
-              src="https://imgix.cosmicjs.com/75b4bed0-711b-11ef-9f27-0d70a946df1f-instagram.png"
+              src="https://imgix.cosmicjs.com/4b684c10-748a-11ef-98d9-cbcb72f3073e-instagram.png"
               alt="Instagram"
               title="Instagram"
               width={40}
@@ -79,7 +79,7 @@ const Skeleton = () => {
         >
           <Container className="circle-3 h-16 w-16">
             <Image
-              src="https://imgix.cosmicjs.com/75b226c0-711b-11ef-9f27-0d70a946df1f-linkedin.png"
+              src="https://imgix.cosmicjs.com/4b6565e0-748a-11ef-98d9-cbcb72f3073e-linkedin.png"
               alt="LinkedIn"
               title="Linkedin"
               width={32}
