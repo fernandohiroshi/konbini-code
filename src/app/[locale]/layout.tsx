@@ -3,6 +3,7 @@ import '../globals.css'
 import { NextIntlClientProvider } from 'next-intl'
 import { getMessages } from 'next-intl/server'
 import { Raleway } from 'next/font/google'
+import { Toaster } from 'react-hot-toast'
 
 import { ThemeProvider } from '@/components/themes/ThemeProvider'
 
@@ -88,6 +89,7 @@ export default async function LocaleLayout({
         >
           <NextIntlClientProvider messages={messages}>
             {children}
+            <Toaster position="top-right" />
           </NextIntlClientProvider>
         </ThemeProvider>
       </body>

@@ -24,10 +24,10 @@ const ContactForm: React.FC = () => {
 
     emailjs
       .send(
-        'service_nkam0k7',
-        'template_h53c7fk',
+        'service_1efk0ra',
+        'template_31o02dx',
         templatesParams,
-        'VNMKcNny-7k9JoocI',
+        'h-IZqL-9pdElK9sbA',
       )
       .then(
         (response) => {
