@@ -10,7 +10,7 @@ import { ThemeProvider } from '@/components/themes/ThemeProvider'
 const raleway = Raleway({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Konbini Code - Modern Website Development',
+  title: 'Konbini Code - Modern Website Development.',
   description:
     'Konbini Code offers modern, responsive, and unique website development with cutting-edge UI/UX and front-end technologies.',
   keywords: [
