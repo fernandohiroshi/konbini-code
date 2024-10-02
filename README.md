@@ -59,7 +59,6 @@ The project adheres to best practices for code formatting and organization:
 
 The project follows a clear and organized structure:
 
-```bash
 ## Project Structure
 
 Below is the basic folder structure of the project:
