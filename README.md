@@ -2,7 +2,7 @@
 
 This repository hosts the **Konbini Code** project, which offers modern, responsive, and unique website development with cutting-edge UI/UX and front-end technologies.
 
-![Konbini Web Preview](https://cdn.cosmicjs.com/181e4300-748a-11ef-98d9-cbcb72f3073e-openGraph.jpg)
+![Konbini Web Preview](https://cdn.cosmicjs.com/b1e6b4b0-80fe-11ef-9257-112b43bd2f70-Macbook-Air-konbinicode.com.png)
 
 > **Notice**: This project is protected by copyright. Any use or copying of this code without proper authorization is prohibited.
 
@@ -90,6 +90,8 @@ message                   # Translation files for localization
 ## Responsiveness
 
 The project is fully responsive and provides an optimal experience across various devices:
+
+![Konbini Web Preview](https://cdn.cosmicjs.com/ac06ccb0-80fe-11ef-9257-112b43bd2f70-iPhone-13-PRO-konbinicode.com.png)
 
 - **Desktop**: The layout adapts beautifully to larger screens, ensuring all elements are displayed correctly.
 - **Tablet**: The design maintains usability and readability, adjusting elements for a comfortable browsing experience.
