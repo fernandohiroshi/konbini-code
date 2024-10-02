@@ -60,6 +60,11 @@ The project adheres to best practices for code formatting and organization:
 The project follows a clear and organized structure:
 
 ```bash
+## Project Structure
+
+Below is the basic folder structure of the project:
+
+```bash
 src
 ├── globals.css          # Global styles for the application
 ├── app
@@ -77,6 +82,11 @@ src
 │       └── footer       # Footer component
 ├── i18n                 # Internationalization files and configurations
 └── lib                  # Utility functions and shared libraries
+
+message                   # Translation files for localization
+├── en.json              # English translations
+├── ja.json              # Japanese translations
+└── pt.json              # Portuguese translations
 ```
 ## Responsiveness
 
