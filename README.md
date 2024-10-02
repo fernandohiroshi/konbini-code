@@ -89,9 +89,9 @@ message                   # Translation files for localization
 ```
 ## Responsiveness
 
-The project is fully responsive and provides an optimal experience across various devices:
-
 ![Konbini Web Preview](https://cdn.cosmicjs.com/ac06ccb0-80fe-11ef-9257-112b43bd2f70-iPhone-13-PRO-konbinicode.com.png)
+
+The project is fully responsive and provides an optimal experience across various devices:
 
 - **Desktop**: The layout adapts beautifully to larger screens, ensuring all elements are displayed correctly.
 - **Tablet**: The design maintains usability and readability, adjusting elements for a comfortable browsing experience.
