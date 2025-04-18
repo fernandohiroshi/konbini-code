@@ -58,7 +58,7 @@ const Skeleton = () => {
         </a>
 
         <a
-          href="https://www.instagram.com/fernando_hiroshi"
+          href="https://www.instagram.com/konbinicode/"
           className="duration-300 ease-in-out hover:scale-125"
         >
           <Container className="circle-2 h-24 w-24">

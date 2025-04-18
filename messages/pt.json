@@ -17,10 +17,15 @@
     "contact": "Contato"
   },
 
+  "Works": {
+    "lastWorks": "Últimos Trabalhos",
+    "visitSite": "Visite o Site"
+  },
+
   "Languages": {
-    "en": "Inglês",
-    "ja": "Japonês",
-    "pt": "Português"
+    "en": "🇺🇸 English",
+    "ja": "🇯🇵 日本語",
+    "pt": "🇧🇷 Português"
   },
 
   "Features": {

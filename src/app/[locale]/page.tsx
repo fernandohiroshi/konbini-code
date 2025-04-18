@@ -7,6 +7,7 @@ import { Questions } from '@/components/view/questions/Questions'
 import { ScrollUpToggle } from '@/components/view/scrollUpToggle/ScrollUpToggle'
 import { Services } from '@/components/view/services/Services'
 import { Templates } from '@/components/view/templates/Templates'
+import { Works } from '@/components/view/works/Works'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Services />
         <Templates />
         <Questions />
+        <Works />
         <Footer />
         <Copyright />
         <MenuMobile />

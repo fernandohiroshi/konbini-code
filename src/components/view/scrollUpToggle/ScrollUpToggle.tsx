@@ -1,14 +1,13 @@
-import { CircleArrowUp } from 'lucide-react'
 import Link from 'next/link'
+import { CgChevronDoubleUpR } from 'react-icons/cg'
 
 export function ScrollUpToggle() {
   return (
     <Link
       href="#"
-      title="Home"
-      className="fixed bottom-4 right-4 hidden lg:block"
+      className="fixed bottom-4 right-4 hidden opacity-70 duration-300 hover:scale-90 hover:text-purple-500 hover:opacity-100 lg:block"
     >
-      <CircleArrowUp size={24} />
+      <CgChevronDoubleUpR size={32} />
     </Link>
   )
 }
