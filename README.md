@@ -1,7 +1,3 @@
-Here's an improved version of your README with better organization, clearer language, and enhanced visual appeal:
-
----
-
 # � Konbini Code - Modern Website Development
 
 ![Konbini Web Preview](https://cdn.cosmicjs.com/b1e6b4b0-80fe-11ef-9257-112b43bd2f70-Macbook-Air-konbinicode.com.png)
@@ -117,5 +113,3 @@ Access the live demo:
 ### 📜 License
 
 All rights reserved. Unauthorized copying or reuse prohibited.
-
----
