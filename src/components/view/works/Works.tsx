@@ -17,7 +17,7 @@ export function Works() {
       title: 'Vip Tech Store',
       button: t('visitSite'),
       src: 'https://imgix.cosmicjs.com/943a8210-1c27-11f0-89bb-33da281fd3f1-Macbook-Air-viptechstore-vercel-app.png',
-      buttonUrl: 'https://viptechstore.vercel.app/',
+      buttonUrl: 'https://www.viptech.store/',
     },
     {
       title: 'Dr Hair',
