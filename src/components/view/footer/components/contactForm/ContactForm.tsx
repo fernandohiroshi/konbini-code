@@ -1,6 +1,5 @@
 'use client'
 
-import emailjs from '@emailjs/browser'
 import { useTranslations } from 'next-intl'
 import React, { useState, FormEvent } from 'react'
 import toast from 'react-hot-toast'
@@ -14,34 +13,12 @@ const ContactForm: React.FC = () => {
 
   const t = useTranslations('ContactForm')
 
-  const sendEmail = (e: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-    const templatesParams = {
-      from_name: name,
-      message: message,
-      email: email,
-    }
-
-    emailjs
-      .send(
-        'service_1efk0ra',
-        'template_31o02dx',
-        templatesParams,
-        'h-IZqL-9pdElK9sbA',
-      )
-      .then(
-        (response) => {
-          toast.success('Email sent successfully!')
-          setName('')
-          setEmail('')
-          setMessage('')
-          console.log('Email sent successfully!', response)
-        },
-        (error) => {
-          toast.error(error)
-          console.log('ERRO', error)
-        },
-      )
+    toast.success('Mensagem enviada! (simulado)')
+    setName('')
+    setEmail('')
+    setMessage('')
   }
 
   return (
@@ -53,7 +30,7 @@ const ContactForm: React.FC = () => {
         <p className="hidden text-sm opacity-80 md:block">{t('description')}</p>
       </div>
 
-      <form onSubmit={sendEmail} className="flex flex-col gap-3 text-sm">
+      <form onSubmit={handleSubmit} className="flex flex-col gap-3 text-sm">
         <input
           className="rounded-lg px-4 py-2 outline-none dark:bg-zinc-950"
           type="text"

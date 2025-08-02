@@ -74,7 +74,7 @@ const Skeleton = () => {
         </a>
 
         <a
-          href="https://www.linkedin.com/in/fernando-hiroshi/"
+          href="https://www.linkedin.com/company/konbini-code"
           className="duration-300 ease-in-out hover:scale-125"
         >
           <Container className="circle-3 h-16 w-16">
